@@ -1,0 +1,26 @@
+    print "starting drive_square"
+    m.drive()
+    print "first drive done"
+    msleep(1000)
+    print "wait"
+    m.turn_right() #turn right
+    msleep(1000)
+    print "wait"
+    m.drive()
+    msleep(1000)
+    print ¨wait¨
+    print ¨second drive done¨
+    m.turn_right()
+    msleep(1000)
+    print ¨wait¨
+    m.drive()
+    msleep(1000)
+    print ¨wait¨
+    print ¨third drive done¨
+    m.turn_right()
+    msleep(1000)
+    print ¨wait¨
+    m.drive()
+    m.sleep(1000)
+    print ¨wait¨
+    print ¨fourth drive done¨
